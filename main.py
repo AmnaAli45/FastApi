@@ -7,6 +7,7 @@ app = FastAPI() # creating the object
 def load_data():
     with open('patients.json','r') as f:
         data = json.load(f)
+        return data
 
 # first create an end point
 @app.get('/')
@@ -17,4 +18,7 @@ def hello():
 def about():
     return{"Message": "We are working to make all the patient management digital."}
 
-
+@app.get('/view')
+def view():
+    data = load_data()
+    return data
