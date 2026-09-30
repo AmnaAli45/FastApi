@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+import json
 
 app = FastAPI() # creating the object
 
@@ -10,3 +11,5 @@ def hello():
 @app.get('/about')
 def about():
     return{"Message": "We are working to make all the patient management digital."}
+
+

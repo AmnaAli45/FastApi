@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Ayesha Khan",
+    "height": 165,
+    "weight": 62,
+    "bmi": 22.8
+  },
+  {
+    "id": 2,
+    "name": "Ali Hassan",
+    "height": 178,
+    "weight": 85,
+    "bmi": 26.8
+  },
+  {
+    "id": 3,
+    "name": "Hira Aslam",
+    "height": 160,
+    "weight": 72,
+    "bmi": 28.1
+  },
+  {
+    "id": 4,
+    "name": "Usman Tariq",
+    "height": 175,
+    "weight": 95,
+    "bmi": 31.0
+  },
+  {
+    "id": 5,
+    "name": "Maryam Iqbal",
+    "height": 168,
+    "weight": 58,
+    "bmi": 20.5
+  },
+  {
+    "id": 6,
+    "name": "Bilal Nawaz",
+    "height": 182,
+    "weight": 88,
+    "bmi": 26.6
+  },
+  {
+    "id": 7,
+    "name": "Sana Rashid",
+    "height": 158,
+    "weight": 70,
+    "bmi": 28.0
+  },
+  {
+    "id": 8,
+    "name": "Hamza Javed",
+    "height": 172,
+    "weight": 68,
+    "bmi": 23.0
+  },
+  {
+    "id": 9,
+    "name": "Zoya Imran",
+    "height": 145,
+    "weight": 42,
+    "bmi": 20.0
+  },
+  {
+    "id": 10,
+    "name": "Omar Farooq",
+    "height": 180,
+    "weight": 102,
+    "bmi": 31.5
+  }
+]
