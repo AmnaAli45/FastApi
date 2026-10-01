@@ -5,7 +5,7 @@ app = FastAPI() # creating the object
 
 # Helper to load data
 def load_data():
-    with open('patients.json','r') as f:
+    with open('pateints.json','r') as f:
         data = json.load(f)
         return data
 
@@ -22,3 +22,11 @@ def about():
 def view():
     data = load_data()
     return data
+
+@app.get('/view/{patient_id}')
+def view_patient(patient_id: int):
+    data = load_data()
+    for patient in data:
+        if patient['id'] == patient_id:
+            return patient # jis ki id url mein ho gy wo wale patient ka data return ho ga
+    return {"Message": "Patient not found."}
